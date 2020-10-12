@@ -793,6 +793,143 @@ table.alt tbody tr td {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
 
+
+/* Highlightss */
+.highlightss {
+  width: 100%;
+  margin: 2.5rem 0;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -moz-align-items: -moz-stretch;
+  -webkit-align-items: -webkit-stretch;
+  -ms-align-items: -ms-stretch;
+  align-items: stretch; }
+  .highlightss > * {
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0; }
+  .highlightss > * {
+    width: 33.3333333333%; }
+  .highlightss > * {
+    padding: 1.5rem;
+    width: calc(33.3333333333% + 1rem); }
+  .highlightss > :nth-child(-n + 3) {
+    padding-top: 0; }
+  .highlightss > :nth-last-child(-n + 3) {
+    padding-bottom: 0; }
+  .highlights > :nth-child(3n + 1) {
+    padding-left: 0; }
+  .highlightss > :nth-child(3n) {
+    padding-right: 0; }
+  .highlightss > :nth-child(3n + 1),
+  .highlightss > :nth-child(3n) {
+    width: calc(33.3333333333% + -0.5rem); }
+  .highlightss .content {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; }
+    .highlightss .content .icon {
+      font-size: 5rem; }
+  .highlightss > div > :last-child {
+    margin-bottom: 0; }
+  @media screen and (max-width: 980px) {
+    .highlightss > * {
+      width: 50%; }
+    .highlightss > * {
+      padding: 1rem;
+      width: calc(33.3333333333% + 0.6666666667rem); }
+    .highlightss > :nth-child(-n + 3) {
+      padding-top: 1rem; }
+    .highlightss > :nth-last-child(-n + 3) {
+      padding-bottom: 1rem; }
+    .highlightss > :nth-child(3n + 1) {
+      padding-left: 1rem; }
+    .highlightss > :nth-child(3n) {
+      padding-right: 1rem; }
+    .highlightss > :nth-child(3n + 1),
+    .highlightss > :nth-child(3n) {
+      padding: 1rem;
+      width: calc(50% + 1rem); }
+    .highlightss > * {
+      padding: 1rem;
+      width: calc(50% + 1rem); }
+    .highlightss > :nth-child(-n + 2) {
+      padding-top: 0; }
+    .highlightss > :nth-last-child(-n + 2) {
+      padding-bottom: 0; }
+    .highlightss > :nth-child(2n + 1) {
+      padding-left: 0; }
+    .highlightss > :nth-child(2n) {
+      padding-right: 0; }
+    .highlightss > :nth-child(2n + 1),
+    .highlightss > :nth-child(2n) {
+      width: calc(50% + 0rem); }
+    .highlightss .content {
+      padding: 2rem; } }
+  @media screen and (max-width: 736px) {
+    .highlightss > * {
+      width: 100%; }
+    .highlightss > * {
+      padding: 1rem;
+      width: calc(33.3333333333% + 0.6666666667rem); }
+    .highlightss > :nth-child(-n + 3) {
+      padding-top: 1rem; }
+    .highlightss > :nth-last-child(-n + 3) {
+      padding-bottom: 1rem; }
+    .highlightss > :nth-child(3n + 1) {
+      padding-left: 1rem; }
+    .highlightss > :nth-child(3n) {
+      padding-right: 1rem; }
+    .highlightss > :nth-child(3n + 1),
+    .highlightss > :nth-child(3n) {
+      padding: 1rem;
+      width: calc(100% + 2rem); }
+    .highlightss > * {
+      padding: 1rem;
+      width: calc(50% + 1rem); }
+    .highlightss > :nth-child(-n + 2) {
+      padding-top: 1rem; }
+    .highlightss > :nth-last-child(-n + 2) {
+      padding-bottom: 1rem; }
+    .highlightss > :nth-child(2n + 1) {
+      padding-left: 1rem; }
+    .highlightss > :nth-child(2n) {
+      padding-right: 1rem; }
+    .highlightss > :nth-child(2n + 1),
+    .highlightss > :nth-child(2n) {
+      padding: 1rem;
+      width: calc(100% + 2rem); }
+    .highlightss > * {
+      padding: 1rem;
+      width: calc(100% + 2rem); }
+    .highlightss > :nth-child(-n + 1) {
+      padding-top: 0; }
+    .highlightss > :nth-last-child(-n + 1) {
+      padding-bottom: 0; }
+    .highlightss > :nth-child(1n + 1) {
+      padding-left: 0; }
+    .highlightss > :nth-child(1n) {
+      padding-right: 0; }
+    .highlightss > :nth-child(1n + 1),
+    .highlightss > :nth-child(1n) {
+      width: calc(100% + 1rem); } }
+
+.highlightss .content {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+
 /* Testimonials */
 .testimonials {
   margin: 2.5rem 0;

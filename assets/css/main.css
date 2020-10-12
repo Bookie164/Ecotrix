@@ -2854,10 +2854,10 @@ body {
   padding: 3rem; }
   @media screen and (max-width: 980px) {
     #main .content {
-      padding: 2rem;text-align: justify;text-justify: inter-word; } }
+      padding: 0.5rem;text-align: justify;text-justify: inter-word; } }
   @media screen and (max-width: 480px) {
     #main .content {
-      padding: 1.5rem;text-align: justify;text-justify: inter-word; } }
+      padding: 0.5rem;text-align: justify;text-justify: inter-word; } }
 
 /* Menu */
 #menu {

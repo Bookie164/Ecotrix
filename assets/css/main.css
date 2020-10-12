@@ -822,7 +822,7 @@ table.alt tbody tr td {
   .highlightss > * {
     width: 33.3333333333%; }
   .highlightss > * {
-    padding: 1.5rem;
+    padding: 1rem;
     width: calc(33.3333333333% + 1rem); }
   .highlightss > :nth-child(-n + 3) {
     padding-top: 0; }
@@ -838,7 +838,7 @@ table.alt tbody tr td {
   .highlightss .content {
     border-radius: 4px;
     height: 100%;
-    padding: 3rem;
+    padding: 1rem;
     text-align: center; }
     .highlightss .content .icon {
       font-size: 5rem; }

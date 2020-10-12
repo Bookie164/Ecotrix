@@ -2848,26 +2848,13 @@ body {
   background: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-  margin-bottom: 2rem;
-  padding: 3rem; }
-  @media screen and (max-width: 980px) {
-    #main .content {
-      padding: 2rem; } }
-  @media screen and (max-width: 480px) {
-    #main .content {
-      padding: 1.5rem; } }
-/* Main1 */
-#main1 .content {
-  background: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   margin-bottom: 0rem;
   padding: 3rem; }
   @media screen and (max-width: 980px) {
-    #main1 .content {
+    #main .content {
       padding: 2rem; } }
   @media screen and (max-width: 480px) {
-    #main1 .content {
+    #main .content {
       padding: 1.5rem; } }
 
 /* Menu */
